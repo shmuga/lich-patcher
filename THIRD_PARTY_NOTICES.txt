@@ -1,0 +1,2400 @@
+THIRD-PARTY NOTICES — LICH PATCHER
+
+These notices supplement LICENSE and CREDITS.md; they do not replace the
+original permissions or authorship of third-party components. The combined
+browser preview is distributed under GPL version 3 or later. Individual
+components retain the notices below and in the matching source archives.
+
+Pure Data: Miller Puckette, IRCAM and contributors.
+libpd: its contributors; libpd-wasm: hyrfilm and contributors.
+Cyclone: Krzysztof Czaja, Hans-Christoph Steiner, Fred Jan Kraan,
+Alexandre Porres, Derek Kwan, Matt Barber and others.
+ELSE: Alexandre Torres Porres and contributors, including GPL reverbs by
+Juhana Sadeharju and Tom Schouten. File-specific notices appear at the end.
+hvcc: Copyright (C) 2014–2018 Enzien Audio, Ltd.;
+Copyright (C) 2021–2026 Wasted Audio. GNU GPL version 3 or later.
+
+Font licences below cover resources loaded from Google Fonts. Vite's MIT notice
+covers its browser helper; build-only dependency notices are omitted.
+The top-level libpd BSD notice alone does not describe the full preview.
+The original licence wording and dates below are preserved verbatim.
+
+
+=== Barlow-and-Barlow-Condensed-OFL.txt ===
+
+Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+=== Cyclone-BSD.txt ===
+
+Copyright (c) <2003-2020>, <Krzysztof Czaja, Fred Jan Kraan, Alexandre Porres, Derek Kwan, Matt Barber and others>
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of the <organization> nor the
+      names of its contributors may be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL <COPYRIGHT HOLDER> BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+=== ELSE-WTFPL.txt ===
+
+DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2017-2023 Alexandre Torres Porres and others
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+
+=== Emscripten-LICENSE.txt ===
+
+Emscripten is available under 2 licenses, the MIT license and the
+University of Illinois/NCSA Open Source License.
+
+Both are permissive open source licenses, with little if any
+practical difference between them.
+
+The reason for offering both is that (1) the MIT license is
+well-known, while (2) the University of Illinois/NCSA Open Source
+License allows Emscripten's code to be integrated upstream into
+LLVM, which uses that license, should the opportunity arise.
+
+The full text of both licenses follows.
+
+==============================================================================
+
+Copyright (c) 2010-2014 Emscripten authors, see AUTHORS file.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+==============================================================================
+
+Copyright (c) 2010-2014 Emscripten authors, see AUTHORS file.
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a
+copy of this software and associated documentation files (the
+"Software"), to deal with the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+    Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimers.
+
+    Redistributions in binary form must reproduce the above
+    copyright notice, this list of conditions and the following disclaimers
+    in the documentation and/or other materials provided with the
+    distribution.
+
+    Neither the names of Mozilla,
+    nor the names of its contributors may be used to endorse
+    or promote products derived from this Software without specific prior
+    written permission. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.
+
+==============================================================================
+
+This program uses portions of Node.js source code located in src/library_path.js,
+in accordance with the terms of the MIT license. Node's license follows:
+
+    """
+        Copyright Joyent, Inc. and other Node contributors. All rights reserved.
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to
+        deal in the Software without restriction, including without limitation the
+        rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+        sell copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+        FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+        IN THE SOFTWARE.
+    """
+
+The musl libc project is bundled in this repo, and it has the MIT license, see
+system/lib/libc/musl/COPYRIGHT
+
+The third_party/ subdirectory contains code with other licenses. None of it is
+used by default, but certain options use it (e.g., the optional closure compiler
+flag will run closure compiler from third_party/).
+
+=== JetBrainsMono-OFL.txt ===
+
+Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+
+This license is copied below, and is also available with a FAQ at: https://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded,
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+
+=== Pure-Data-and-libpd-BSD.txt ===
+
+This software is copyrighted by Miller Puckette and others.  The following
+terms (the "Standard Improved BSD License") apply to all files associated with
+the software unless explicitly disclaimed in individual files:
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above
+   copyright notice, this list of conditions and the following
+   disclaimer in the documentation and/or other materials provided
+   with the distribution.
+3. The name of the author may not be used to endorse or promote
+   products derived from this software without specific prior
+   written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+THE POSSIBILITY OF SUCH DAMAGE.
+
+=== musl-COPYRIGHT.txt ===
+
+musl as a whole is licensed under the following standard MIT license:
+
+----------------------------------------------------------------------
+Copyright © 2005-2020 Rich Felker, et al.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+----------------------------------------------------------------------
+
+Authors/contributors include:
+
+A. Wilcox
+Ada Worcester
+Alex Dowad
+Alex Suykov
+Alexander Monakov
+Andre McCurdy
+Andrew Kelley
+Anthony G. Basile
+Aric Belsito
+Arvid Picciani
+Bartosz Brachaczek
+Benjamin Peterson
+Bobby Bingham
+Boris Brezillon
+Brent Cook
+Chris Spiegel
+Clément Vasseur
+Daniel Micay
+Daniel Sabogal
+Daurnimator
+David Carlier
+David Edelsohn
+Denys Vlasenko
+Dmitry Ivanov
+Dmitry V. Levin
+Drew DeVault
+Emil Renner Berthing
+Fangrui Song
+Felix Fietkau
+Felix Janda
+Gianluca Anzolin
+Hauke Mehrtens
+He X
+Hiltjo Posthuma
+Isaac Dunham
+Jaydeep Patil
+Jens Gustedt
+Jeremy Huntwork
+Jo-Philipp Wich
+Joakim Sindholt
+John Spencer
+Julien Ramseier
+Justin Cormack
+Kaarle Ritvanen
+Khem Raj
+Kylie McClain
+Leah Neukirchen
+Luca Barbato
+Luka Perkov
+Lynn Ochs
+M Farkas-Dyck (Strake)
+Mahesh Bodapati
+Markus Wichmann
+Masanori Ogino
+Michael Clark
+Michael Forney
+Mikhail Kremnyov
+Natanael Copa
+Nicholas J. Kain
+orc
+Pascal Cuoq
+Patrick Oppenlander
+Petr Hosek
+Petr Skocik
+Pierre Carrier
+Reini Urban
+Rich Felker
+Richard Pennington
+Ryan Fairfax
+Samuel Holland
+Segev Finer
+Shiz
+sin
+Solar Designer
+Stefan Kristiansson
+Stefan O'Rear
+Szabolcs Nagy
+Timo Teräs
+Trutz Behn
+Will Dietz
+William Haddon
+William Pitcock
+
+Portions of this software are derived from third-party works licensed
+under terms compatible with the above MIT license:
+
+The TRE regular expression implementation (src/regex/reg* and
+src/regex/tre*) is Copyright © 2001-2008 Ville Laurikari and licensed
+under a 2-clause BSD license (license text in the source files). The
+included version has been heavily modified by Rich Felker in 2012, in
+the interests of size, simplicity, and namespace cleanliness.
+
+Much of the math library code (src/math/* and src/complex/*) is
+Copyright © 1993,2004 Sun Microsystems or
+Copyright © 2003-2011 David Schultz or
+Copyright © 2003-2009 Steven G. Kargl or
+Copyright © 2003-2009 Bruce D. Evans or
+Copyright © 2008 Stephen L. Moshier or
+Copyright © 2017-2018 Arm Limited
+and labelled as such in comments in the individual source files. All
+have been licensed under extremely permissive terms.
+
+The ARM memcpy code (src/string/arm/memcpy.S) is Copyright © 2008
+The Android Open Source Project and is licensed under a two-clause BSD
+license. It was taken from Bionic libc, used on Android.
+
+The AArch64 memcpy and memset code (src/string/aarch64/*) are
+Copyright © 1999-2019, Arm Limited.
+
+The implementation of DES for crypt (src/crypt/crypt_des.c) is
+Copyright © 1994 David Burren. It is licensed under a BSD license.
+
+The implementation of blowfish crypt (src/crypt/crypt_blowfish.c) was
+originally written by Solar Designer and placed into the public
+domain. The code also comes with a fallback permissive license for use
+in jurisdictions that may not recognize the public domain.
+
+The smoothsort implementation (src/stdlib/qsort.c) is Copyright © 2011
+Lynn Ochs and is licensed under an MIT-style license.
+
+The x86_64 port was written by Nicholas J. Kain and is licensed under
+the standard MIT terms.
+
+The mips and microblaze ports were originally written by Richard
+Pennington for use in the ellcc project. The original code was adapted
+by Rich Felker for build system and code conventions during upstream
+integration. It is licensed under the standard MIT terms.
+
+The mips64 port was contributed by Imagination Technologies and is
+licensed under the standard MIT terms.
+
+The powerpc port was also originally written by Richard Pennington,
+and later supplemented and integrated by John Spencer. It is licensed
+under the standard MIT terms.
+
+All other files which have no copyright comments are original works
+produced specifically for use as part of this library, written either
+by Rich Felker, the main author of the library, or by one or more
+contibutors listed above. Details on authorship of individual files
+can be found in the git version control history of the project. The
+omission of copyright and license comments in each file is in the
+interest of source tree size.
+
+In addition, permission is hereby granted for all public header files
+(include/* and arch/*/bits/*) and crt files intended to be linked into
+applications (crt/*, ldso/dlstart.c, and arch/*/crt_arch.h) to omit
+the copyright notice and permission notice otherwise required by the
+license, and to use these files without any requirement of
+attribution. These files include substantial contributions from:
+
+Bobby Bingham
+John Spencer
+Nicholas J. Kain
+Rich Felker
+Richard Pennington
+Stefan Kristiansson
+Szabolcs Nagy
+
+all of whom have explicitly granted such permission.
+
+This file previously contained text expressing a belief that most of
+the files covered by the above exception were sufficiently trivial not
+to be subject to copyright, resulting in confusion over whether it
+negated the permissions granted in the license. In the spirit of
+permissive licensing, and of not having licensing issues being an
+obstacle to adoption, that text has been removed.
+
+=== Vite-browser-helper-MIT.txt ===
+
+# Vite core license
+Vite is released under the MIT license:
+
+MIT License
+
+Copyright (c) 2019-present, VoidZero Inc. and Vite contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+=== RUNTIME FILE NOTICES ===
+Copyright and permission notices retained from the pinned runtime sources.
+Identical notices are reproduced once, followed by their source files.
+
+/* Copyright (c) 2002-2003 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/acos.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/acosh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/asin.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/asinh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/atan.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/atan2.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/atanh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/average.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/avg.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/bitand.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/bitnot.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/bitor.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/bitshift.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/bitxor.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/cartopol.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/change.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/click.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/clip.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/cosh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/cosx.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/count.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/cycle.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/delay.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/delta.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/deltaclip.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/edge.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/frameaccum.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/framedelta.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/index.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/kink.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/line.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/minmax.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/peakamp.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/peek.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/phasewrap.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/play.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/poltocar.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/pow.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/rampsmooth.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/sah.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/sinh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/sinx.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/slide.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/snapshot.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/spike.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/tanh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/tanx.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/train.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/trapezoid.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/triangle.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/vectral.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/wave.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/accum.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/acos.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/active.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/anal.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/asin.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/bondo.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/borax.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/bucket.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/buddy.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/cartopol.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/clip.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/cosh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/decide.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/drunk.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/flush.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/fromsymbol.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/funnel.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/grab.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/histo.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/iter.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/match.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/mean.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/midiflush.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/midiformat.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/midiparse.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/mousefilter.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/mousestate.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/next.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/onebang.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/peak.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/poltocar.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/pv.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/sinh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/speedlim.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/spell.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/split.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/spray.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/sprintf.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/substitute.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/tanh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/thresh.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/togedge.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/tosymbol.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/trough.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/universal.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/uzi.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/xbendin.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/xbendin2.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/xbendout.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/xbendout2.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/xnotein.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/xnoteout.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/zl.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/common/grow.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/common/grow.h
+
+---
+
+/*
+ Copyright (c) 2016 Marco Matteo Markidis
+ mm.markidis@gmail.com
+ 
+ For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ 
+ Made while listening:
+ Evan Parker Electro-Acoustic Ensemble -- Hasselt
+ */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/atodb.c
+
+---
+
+/* Copyright (c) 2003-2005 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/buffir.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/svf.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/mtr.c
+
+---
+
+/* Copyright (c) 2002-2005 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/capture.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/append.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/bangbang.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/capture.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/coll.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/comment.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/counter.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/cycle.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/decode.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/gate.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/linedrive.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/maximum.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/minimum.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/past.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/prepend.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/prob.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/seq.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/switch.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/urn.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/common/file.c
+
+---
+
+/* Copyright (c) 2004 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/curve.c
+
+---
+
+/*
+  Copyright (c) 2016 Marco Matteo Markidis
+  mm.markidis@gmail.com
+
+  For information on usage and redistribution, and for a DISCLAIMER OF ALL
+  WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+
+  Made while listening:
+  Evan Parker Electro-Acoustic Ensemble -- Hasselt
+*/
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/dbtoa.c
+
+---
+
+// Copyright (c) 2016 Porres.
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/equals.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/greaterthan.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/greaterthaneq.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/lessthan.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/lessthaneq.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/modulo.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/notequals.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/rdiv.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/rminus.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/rdiv.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/rminus.c
+
+---
+
+/* Copyright (c) 2003 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/lores.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/maximum.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/minimum.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/onepole.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/poke.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/reson.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/zerox.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/common/shared.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/common/shared.h
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/signal/cybuf.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/signal/cybuf.h
+
+---
+
+/* Copyright (c) 2005 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/matrix.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/overdrive.c
+
+---
+
+/* Copyright (c) 2003 krzYszcz, and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/mstosamps.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/sampstoms.c
+
+---
+
+/* Copyright (c) 1997-2003 Miller Puckette, krzYszcz, and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/rand.c
+
+---
+
+/* Copyright (c) 2002-2003 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+
+Derek Kwan 2016
+adding defaults for numchannels, append, loopstatus, loopstart, loopend
+adding record_getarraysmp, record_startms, record_endms, record_list, record_loopstart, record_loopend
+adding attribute parsing and making numchannels arg optional 
+rewrite record_perform, record_reset, recor_float, record_startpoint, record_endpoint
+original start and end methods redirect to startms, endms methods
+basically almost everything in this thing
+de-arsic/cybuffing
+
+NOTED CHANGES IN BEHAVIOR:
+start and end point inlets changed from float inlets to sig inlets
+end point inlet set to 0 no longer defaults to the whole array
+I can change this if necessary,.. I just figure if you're sending a phasor that
+starts 0 and goes to some number, you don't want
+the beginning of the ramp to default to the end of the whole array, right?
+*/
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/record.c
+
+---
+
+/* Copyright (c) 2002-2005 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+
+- LATER cache gui commands & think about resizing - mouse events aren't bound to any of scope~'s
+ 'widget', but to a special item created only for a selected scope~. For the other scheme see the
+ 'comment' class (no indicator there, though - neither a handle, nor a pointer change). One way
+ or the other, the traffic from the gui layer should be kept possibly low, at least in run-mode.
+ 
+- 2016 = Derek Kwan: haven't cleaned out old dependencies (grow/loud/fitter/forky). Methods (bufsize,
+ period, calccount, range, delay, trigger, triglevel, frgb/brgb) are rewritten, as well as attr
+ declaration. Wrote color version that take vals 0-1 instead of 0-255.
+- Matt didn't put what he did but he's the one who did more stuff on this for 0.3, like creating a
+ properties window and implementing the magic stuff
+- 2017-20 = Porres finished cleaning dependencies (sic/grow/loud/fitter/forky/all_guis/math),
+cleaned up and revised the code drastically, fixed a couple of regression bugs from 0.3, improved
+tcl/tk handling avoiding potential errors, fixed issues with GOP visibility, changed the click mechanism,
+handle managemente, added a receive symbol, visible inlets and implemented zoom; */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/scope.c
+
+---
+
+/* Copyright (c) 2016 Porres
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/audio/thresh.c
+
+---
+
+/*
+ Copyright (c) 2016 Marco Matteo Markidis
+ mm.markidis@gmail.com
+
+ For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+
+ Made while listening:
+ Disclosure -- Caracal
+ */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/atodb.c
+
+---
+
+/*
+ Copyright (c) 2016 Marco Matteo Markidis
+ mm.markidis@gmail.com
+
+ Made while listening:
+ Disclosure -- Caracal
+ */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/dbtoa.c
+
+---
+
+/* Copyright (c) 1997-2002 Miller Puckette, krzYszcz, and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/forward.c
+
+---
+
+/* Copyright (c) 2002-2004 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/funbuff.c
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/offer.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/rand.h
+
+---
+
+/* modify it under the terms of the GNU General Public License                  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/listfunnel.c
+
+---
+
+/* of the License, or (at your option) any later version.                       */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/listfunnel.c
+
+---
+
+/* GNU General Public License for more details.                                 */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/listfunnel.c
+
+---
+
+/* You should have received a copy of the GNU General Public License            */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/listfunnel.c
+
+---
+
+/* Copyright (c) 2000-2006 Thomas Musil @ IEM KUG Graz Austria
+   Copyright (c) 2016      Joel Matthys
+   Copyright (c) 2016      Marco Matteo Markidis
+   */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/loadmess.c
+
+---
+
+/************
+ Copyright (c) 2016 Marco Matteo Markidis
+ mm.markidis@gmail.com
+ 
+ For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+
+ Made while listening:
+ Hiatus Kaiyote -- Choose Your Weapon
+*************/
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/scale.c
+
+---
+
+/* Copyright (c) 2004-2005 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/control/table.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/common/file.h
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/mifi.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/mifi.h
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/elsefile.h
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/mifi.c
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/mifi.h
+
+---
+
+/* Copyright © (2003-2020) - Krzysztof Czaja, Hans-Christoph Steiner,
+ Fred Jan Kraan, Alexandre Porres, Derek Kwan, Matt Barber and others.");
+ 
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/cyclone_objects/binaries/cyclone_lib.c
+
+---
+
+/* Copyright (c) 2018 Diego Barrios Romero.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/common/api.h
+
+---
+
+/* Copyright (c) 2003-2004 krzYszcz and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/gui.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/gui.h
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/tree.c
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/tree.h
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/mouse_gui.h
+
+---
+
+/*    static char *printformat[MIFIMETA_MAXPRINTABLE+1] =
+    {
+	"", "text: %s", "copyright: %s", "track name: %s",
+	"instrument name: %s", "lyric: %s", "marker: %s", "cue point: %s"
+    };*/
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/mifi.c
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/mifi.c
+
+---
+
+/* Copyright (c) 1997-2004 Miller Puckette, krzYszcz, and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/cyclone/shared/control/rand.c
+
+---
+
+/* based on [convolve~] by William Brent, modified by Tim Schoen and Porres
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>. */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Audio/conv~.c
+
+---
+
+/*   Copyright (c) 2000-2003 by Tom Schouten                                *
+ *   This program is free software; you can redistribute it and/or modify   *
+ *   it under the terms of the GNU General Public License as published by   *
+ *   the Free Software Foundation; either version 2 of the License, or      *
+ *   (at your option) any later version.                                    *
+ *                                                                          *
+ *   This program is distributed in the hope that it will be useful,        *
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of         *
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the          *
+ *   GNU General Public License for more details.                           *
+ *                                                                          *
+ *   You should have received a copy of the GNU General Public License      *
+ *   along with this program; if not, write to the Free Software            *
+ *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.              */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Audio/fdn.rev~.c
+
+---
+
+/*
+ Gigaverb/Gverb algorithm
+ 
+ Original code by Juhana Sadeharju Copyright (C) 1999 kouhia at nic.funet.fi
+ 
+ Ported to Pure Data, Edited, reviewed and modified
+ by Alexandre Torres Porres (c) 2019 to include it in the ELSE library
+ 
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more delates.
+ 
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+*/
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Audio/giga.rev~.c
+
+---
+
+// stolen from mrpeach's routeOSC
+
+// Copyright (C) 2006-2011 Martin Peach
+// slightly modified, renamed and greatly and vastly simplified by Porres 2023
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Control/osc.format.c
+
+---
+
+/*
+Written by Matt Wright, The Center for New Music and Audio Technologies,
+University of California, Berkeley.  Copyright (c) 1996,97,98,99,2000,01,02,03
+The Regents of the University of California (Regents).  
+
+Permission to use, copy, modify, distribute, and distribute modified versions
+of this software and its documentation without fee and without a signed
+licensing agreement, is hereby granted, provided that the above copyright
+notice, this paragraph and the following two paragraphs appear in all copies,
+modifications, and distributions.
+
+IN NO EVENT SHALL REGENTS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING
+OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF REGENTS HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+REGENTS SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE. THE SOFTWARE AND ACCOMPANYING DOCUMENTATION, IF ANY, PROVIDED
+HEREUNDER IS PROVIDED "AS IS". REGENTS HAS NO OBLIGATION TO PROVIDE
+MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+The OSC webpage is http://cnmat.cnmat.berkeley.edu/OpenSoundControl
+*/
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Control/osc.format.c
+
+---
+
+/*
+Written by Matt Wright and Adrian Freed, The Center for New Music and
+Audio Technologies, University of California, Berkeley.  Copyright (c)
+1992,93,94,95,96,97,98,99,2000,01,02,03,04 The Regents of the University of
+California (Regents).
+
+Permission to use, copy, modify, distribute, and distribute modified versions
+of this software and its documentation without fee and without a signed
+licensing agreement, is hereby granted, provided that the above copyright
+notice, this paragraph and the following two paragraphs appear in all copies,
+modifications, and distributions.
+
+IN NO EVENT SHALL REGENTS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING
+OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF REGENTS HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+REGENTS SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE. THE SOFTWARE AND ACCOMPANYING DOCUMENTATION, IF ANY, PROVIDED
+HEREUNDER IS PROVIDED "AS IS". REGENTS HAS NO OBLIGATION TO PROVIDE
+MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+
+
+The OSC webpage is http://cnmat.cnmat.berkeley.edu/OpenSoundControl
+*/
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Control/osc.parse.c
+
+---
+
+// stolen from mrpeach's routeOSC
+
+// Copyright (C) 2006-2011 Martin Peach
+// slightly modified, renamed and greatly and vastly simplified by Porres 2023
+
+// GNU license
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Control/osc.route.c
+
+---
+
+/*
+Written by Adrian Freed, The Center for New Music and Audio Technologies,
+University of California, Berkeley.  Copyright (c) 1992,93,94,95,96,97,98,99,2000,01,02,03,04
+The Regents of the University of California (Regents).
+
+Permission to use, copy, modify, distribute, and distribute modified versions
+of this software and its documentation without fee and without a signed
+licensing agreement, is hereby granted, provided that the above copyright
+notice, this paragraph and the following two paragraphs appear in all copies,
+modifications, and distributions.
+
+IN NO EVENT SHALL REGENTS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING
+OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF REGENTS HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+REGENTS SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE. THE SOFTWARE AND ACCOMPANYING DOCUMENTATION, IF ANY, PROVIDED
+HEREUNDER IS PROVIDED "AS IS". REGENTS HAS NO OBLIGATION TO PROVIDE
+MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+*/
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Control/osc.route.c
+
+---
+
+/*
+ * Dirent interface for Microsoft Visual Studio
+ *
+ * Copyright (C) 1998-2019 Toni Ronkko
+ * This file is part of dirent.  Dirent may be freely distributed
+ * under the MIT license.  For all details and documentation, see
+ * https://github.com/tronkko/dirent
+ */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* File type and permission flags for stat(), general mask */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Read permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Write permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Execute permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Read user permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Write user permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Execute user permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Read group permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Write group permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Execute group permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Read others permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Write others permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/* Execute others permission */
+
+Files:
+libpd-wasm-0.1.6/extra-libs/else/Source/Shared/dirent_msvc.h
+
+---
+
+/*
+ * Copyright (c) 2025 Antoine Rousseau
+ * (derived from 'LiveEffect' oboe sample)
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ */
+
+Files:
+libpd-wasm-0.1.6/jni/oboe/OboeEngine.cpp
+libpd-wasm-0.1.6/jni/oboe/OboeEngine.h
+
+---
+
+/*
+ * Copyright (c) 2025 Antoine Rousseau
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ */
+
+Files:
+libpd-wasm-0.1.6/jni/oboe/PdStreams.h
+libpd-wasm-0.1.6/jni/oboe/z_jni_oboe.cpp
+libpd-wasm-0.1.6/jni/oboe/z_jni_oboe.h
+
+---
+
+/*
+ * Copyright (C) 2017 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+Files:
+libpd-wasm-0.1.6/jni/oboe/logging_macros.h
+
+---
+
+/*
+ * Copyright (c) 2012 Peter Brinkmann (peter.brinkmann@gmail.com)
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ */
+
+Files:
+libpd-wasm-0.1.6/jni/z_jni_opensl.c
+libpd-wasm-0.1.6/jni/z_jni_pa.c
+libpd-wasm-0.1.6/jni/z_jni_plain.c
+libpd-wasm-0.1.6/jni/z_jni_shared.c
+
+---
+
+/* Copyright (c) 1997-2010 Miller Puckette and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/libpd_wrapper/s_libpdmidi.c
+libpd-wasm-0.1.6/pure-data/src/s_libpdmidi.c
+
+---
+
+/*
+ * Copyright (c) 2013 Dan Wilcox (danomatika@gmail.com) &
+ *                    Peter Brinkmann (peter.brinkmann@gmail.com)
+ * Copyright (c) 2022 libpd team
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *
+ * See https://github.com/libpd/libpd/wiki for documentation
+ *
+ */
+
+Files:
+libpd-wasm-0.1.6/libpd_wrapper/util/z_print_util.c
+libpd-wasm-0.1.6/libpd_wrapper/util/z_print_util.h
+libpd-wasm-0.1.6/pure-data/src/z_print_util.c
+libpd-wasm-0.1.6/pure-data/src/z_print_util.h
+
+---
+
+/*
+ * Copyright (c) 2012 Peter Brinkmann (peter.brinkmann@gmail.com)
+ * Copyright (c) 2022 libpd team
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *
+ * See https://github.com/libpd/libpd/wiki for documentation
+ *
+ */
+
+Files:
+libpd-wasm-0.1.6/libpd_wrapper/util/z_queued.c
+libpd-wasm-0.1.6/libpd_wrapper/util/z_queued.h
+libpd-wasm-0.1.6/pure-data/src/z_queued.c
+libpd-wasm-0.1.6/pure-data/src/z_queued.h
+
+---
+
+/*
+ * Copyright (c) 2012 Peter Brinkmann (peter.brinkmann@gmail.com)
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *
+ * See https://github.com/libpd/libpd/wiki for documentation
+ *
+ */
+
+Files:
+libpd-wasm-0.1.6/libpd_wrapper/util/z_ringbuffer.c
+libpd-wasm-0.1.6/libpd_wrapper/util/z_ringbuffer.h
+libpd-wasm-0.1.6/pure-data/src/z_ringbuffer.c
+libpd-wasm-0.1.6/pure-data/src/z_ringbuffer.h
+
+---
+
+/*
+ * Copyright (c) 2010 Peter Brinkmann (peter.brinkmann@gmail.com)
+ * Copyright (c) 2012-2021 libpd team
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *
+ * See https://github.com/libpd/libpd/wiki for documentation
+ *
+ */
+
+Files:
+libpd-wasm-0.1.6/libpd_wrapper/x_libpdreceive.c
+libpd-wasm-0.1.6/libpd_wrapper/x_libpdreceive.h
+libpd-wasm-0.1.6/libpd_wrapper/z_libpd.c
+libpd-wasm-0.1.6/libpd_wrapper/z_libpd.h
+libpd-wasm-0.1.6/pure-data/src/x_libpdreceive.c
+libpd-wasm-0.1.6/pure-data/src/x_libpdreceive.h
+libpd-wasm-0.1.6/pure-data/src/z_libpd.c
+libpd-wasm-0.1.6/pure-data/src/z_libpd.h
+
+---
+
+/*
+ * Copyright (c) 2013 Dan Wilcox (danomatika@gmail.com)
+ * Copyright (c) 2013-2021 libpd team
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ *
+ * See https://github.com/libpd/libpd/wiki for documentation
+ *
+ */
+
+Files:
+libpd-wasm-0.1.6/libpd_wrapper/z_hooks.c
+libpd-wasm-0.1.6/libpd_wrapper/z_hooks.h
+libpd-wasm-0.1.6/pure-data/src/z_hooks.c
+libpd-wasm-0.1.6/pure-data/src/z_hooks.h
+
+---
+
+//
+//  AudioHelpers.h
+//  libpd
+//
+//  Created on 18/10/11.
+//
+//  For information on usage and redistribution, and for a DISCLAIMER OF ALL
+//  WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+//
+//  Updated 2018, 2020 Dan Wilcox <danomatika@gmail.com>
+//
+
+Files:
+libpd-wasm-0.1.6/objc/AudioHelpers.h
+
+---
+
+//
+//  PdAudioController.h
+//  libpd
+//
+//  Created on 11/10/11.
+//
+//  For information on usage and redistribution, and for a DISCLAIMER OF ALL
+//  WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+//
+//  Updated 2018, 2020 Dan Wilcox <danomatika@gmail.com>
+//
+
+Files:
+libpd-wasm-0.1.6/objc/PdAudioController.h
+
+---
+
+//
+//  PdAudioUnit.h
+//  libpd
+//
+//  Created on 29/09/11.
+//
+//  For information on usage and redistribution, and for a DISCLAIMER OF ALL
+//  WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+//
+//  Updated 2018, 2020 Dan Wilcox <danomatika@gmail.com>
+//
+
+Files:
+libpd-wasm-0.1.6/objc/PdAudioUnit.h
+
+---
+
+//
+// This software is copyrighted by Reality Jockey Ltd. and Peter Brinkmann.
+// The following terms (the "Standard Improved BSD License") apply to
+// all files associated with the software unless explicitly disclaimed
+// in individual files:
+//
+// Redistribution and use in source and binary forms, with or without
+// modification, are permitted provided that the following conditions are
+// met:
+//
+// 1. Redistributions of source code must retain the above copyright
+// notice, this list of conditions and the following disclaimer.
+// 2. Redistributions in binary form must reproduce the above
+// copyright notice, this list of conditions and the following
+// disclaimer in the documentation and/or other materials provided
+// with the distribution.
+// 3. The name of the author may not be used to endorse or promote
+// products derived from this software without specific prior
+// written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY
+// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+// THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+// PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR
+// BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+// EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+// TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+// DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+// ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+// LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+// IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+// THE POSSIBILITY OF SUCH DAMAGE.
+//
+// Updated 2013, 2018, 2020 Dan Wilcox <danomatika@gmail.com>
+//
+
+Files:
+libpd-wasm-0.1.6/objc/PdBase.h
+
+---
+
+//
+//  PdDispatcher.h
+//  libpd
+//
+//  Copyright (c) 2011 Peter Brinkmann (peter.brinkmann@gmail.com)
+//
+//  For information on usage and redistribution, and for a DISCLAIMER OF ALL
+//  WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+//
+//  Updated 2013, 2018, 2020 Dan Wilcox <danomatika@gmail.com>
+//
+
+Files:
+libpd-wasm-0.1.6/objc/PdDispatcher.h
+
+---
+
+//
+//  PdFile.h
+//  libpd
+//
+//  Created by Richard Eakin on 21/02/11.
+//
+//  Copyright (c) 2011 Richard Eakin (reakinator@gmail.com)
+//
+//  For information on usage and redistribution, and for a DISCLAIMER OF ALL
+//  WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+//
+//  Updated 2013, 2018, 2020 Dan Wilcox <danomatika@gmail.com>
+//
+
+Files:
+libpd-wasm-0.1.6/objc/PdFile.h
+
+---
+
+//
+//  PdMidiDispatcher.h
+//  libpd
+//
+//  Copyright (c) 2013, 2020 Dan Wilcox (danomatika@gmail.com)
+//
+//  For information on usage and redistribution, and for a DISCLAIMER OF ALL
+//  WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+//
+
+Files:
+libpd-wasm-0.1.6/objc/PdMidiDispatcher.h
+
+---
+
+/* copyright 2015 Miller Puckette - BSD license */
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/bob~/bob~.c
+
+---
+
+/*
+ ###########################################################################
+ # bonk~ - a Max/MSP external
+ # by miller puckette and ted apel
+ # http://crca.ucsd.edu/~msp/
+ # Max/MSP port by barry threw
+ # http://www.barrythrew.com
+ # me@barrythrew.com
+ # San Francisco, CA
+ # (c) 2008
+ # for Kesumo - http://www.kesumo.com
+ ###########################################################################
+ // bonk~ detects attacks in an audio signal
+ ###########################################################################
+ This software is copyrighted by Miller Puckette and others.  The following
+ terms (the "Standard Improved BSD License") apply to all files associated with
+ the software unless explicitly disclaimed in individual files:
+ 
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+ 
+ 1. Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above  
+ copyright notice, this list of conditions and the following 
+ disclaimer in the documentation and/or other materials provided
+ with the distribution.
+ 3. The name of the author may not be used to endorse or promote
+ products derived from this software without specific prior 
+ written permission.
+ 
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY
+ EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+ THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+ PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR
+ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+ EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+ TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,   
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
+ IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+ THE POSSIBILITY OF SUCH DAMAGE.
+ */
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/bonk~/bonk~.c
+
+---
+
+/*  Copyright 1999 Miller Puckette.
+Permission is granted to use this software for any purpose provided you
+keep this copyright notice intact.
+
+THE AUTHOR AND HIS EMPLOYERS MAKE NO WARRANTY, EXPRESS OR IMPLIED,
+IN CONNECTION WITH THIS SOFTWARE.
+ 
+This file is downloadable from http://www.crca.ucsd.edu/~msp .
+*/
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/choice/choice.c
+
+---
+
+/* Copyright (c) 1997-1999 Miller Puckette and Ted Apel.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/fiddle~/fiddle~.c
+
+---
+
+/*  Copyright 1997-1999 Miller Puckette.
+Permission is granted to use this software for any purpose provided you
+keep this copyright notice intact.
+
+THE AUTHOR AND HIS EMPLOYERS MAKE NO WARRANTY, EXPRESS OR IMPLIED,
+IN CONNECTION WITH THIS SOFTWARE.
+
+This file is downloadable from http://www.crca.ucsd.edu/~msp .
+
+*/
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/loop~/loop~.c
+
+---
+
+/* Copyright 2008 Miller Puckette.  Berkeley license; see the
+file LICENSE.txt in this distribution. */
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/pd~/pdsched.c
+
+---
+
+/*
+  pd~.c - embed a Pd process within Pd or Max.
+
+  Copyright 2008 Miller Puckette
+  BSD license; see README.txt in this distribution for details.
+*/
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/pd~/pd~.c
+
+---
+
+/* Copyright (c) 1999 Miller Puckette.  The
+contents of this file are free for any use, but BOTH THE AUTHOR AND UCSD
+DISCLAIM ALL WARRANTIES related to it.  Although not written in Java, this
+still should not be used to control any machinery containing a sharp blade or
+combustible materiel, or as part of any life support system or weapon. */
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/pique/pique.c
+
+---
+
+/* Copyright (c) 2005 Miller Puckette.  BSD licensed.  No warranties. */
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/sigmund~/sigmund~.c
+
+---
+
+/* stdout -- write messages to standard output.
+
+  Copyright 2008 Miller Puckette
+  BSD license; see README.txt in this distribution for details.
+*/
+
+Files:
+libpd-wasm-0.1.6/pure-data/extra/stdout/stdout.c
+
+---
+
+/* Copyright (c) 1997-1999 Miller Puckette.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_arithmetic.c
+libpd-wasm-0.1.6/pure-data/src/d_ctl.c
+libpd-wasm-0.1.6/pure-data/src/d_dac.c
+libpd-wasm-0.1.6/pure-data/src/d_delay.c
+libpd-wasm-0.1.6/pure-data/src/d_filter.c
+libpd-wasm-0.1.6/pure-data/src/d_global.c
+libpd-wasm-0.1.6/pure-data/src/d_misc.c
+libpd-wasm-0.1.6/pure-data/src/d_osc.c
+libpd-wasm-0.1.6/pure-data/src/d_ugen.c
+libpd-wasm-0.1.6/pure-data/src/g_array.c
+libpd-wasm-0.1.6/pure-data/src/g_canvas.h
+libpd-wasm-0.1.6/pure-data/src/g_io.c
+libpd-wasm-0.1.6/pure-data/src/g_rtext.c
+libpd-wasm-0.1.6/pure-data/src/g_scalar.c
+libpd-wasm-0.1.6/pure-data/src/g_template.c
+libpd-wasm-0.1.6/pure-data/src/g_text.c
+libpd-wasm-0.1.6/pure-data/src/g_traversal.c
+libpd-wasm-0.1.6/pure-data/src/m_atom.c
+libpd-wasm-0.1.6/pure-data/src/m_binbuf.c
+libpd-wasm-0.1.6/pure-data/src/m_class.c
+libpd-wasm-0.1.6/pure-data/src/m_conf.c
+libpd-wasm-0.1.6/pure-data/src/m_glob.c
+libpd-wasm-0.1.6/pure-data/src/m_imp.h
+libpd-wasm-0.1.6/pure-data/src/m_memory.c
+libpd-wasm-0.1.6/pure-data/src/m_obj.c
+libpd-wasm-0.1.6/pure-data/src/m_pd.c
+libpd-wasm-0.1.6/pure-data/src/m_pd.h
+libpd-wasm-0.1.6/pure-data/src/m_sched.c
+libpd-wasm-0.1.6/pure-data/src/s_audio_mmio.c
+libpd-wasm-0.1.6/pure-data/src/s_inter.c
+libpd-wasm-0.1.6/pure-data/src/s_loader.c
+libpd-wasm-0.1.6/pure-data/src/s_print.c
+libpd-wasm-0.1.6/pure-data/src/s_stuff.h
+libpd-wasm-0.1.6/pure-data/src/x_acoustics.c
+libpd-wasm-0.1.6/pure-data/src/x_arithmetic.c
+libpd-wasm-0.1.6/pure-data/src/x_connective.c
+libpd-wasm-0.1.6/pure-data/src/x_interface.c
+libpd-wasm-0.1.6/pure-data/src/x_misc.c
+libpd-wasm-0.1.6/pure-data/src/x_net.c
+libpd-wasm-0.1.6/pure-data/src/x_time.c
+
+---
+
+/* Copyright (c) 1997-1999 Miller Puckette and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_array.c
+libpd-wasm-0.1.6/pure-data/src/m_private_utils.h
+libpd-wasm-0.1.6/pure-data/src/s_main.c
+libpd-wasm-0.1.6/pure-data/src/s_midi.c
+libpd-wasm-0.1.6/pure-data/src/x_text.c
+
+---
+
+/* Copyright (c) 1997- Miller Puckette and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_fft.c
+libpd-wasm-0.1.6/pure-data/src/d_fft_fftw.c
+libpd-wasm-0.1.6/pure-data/src/x_list.c
+
+---
+
+/*
+This is the file, "fftsg.c" from the OOURA FFT package.  The copyright notice
+from Ooura's README is:
+
+Copyright:
+    Copyright(C) 1996-2001 Takuya OOURA
+    email: ooura@mmm.t.u-tokyo.ac.jp
+    download: http://momonga.t.u-tokyo.ac.jp/~ooura/fft.html
+    You may use, copy, modify this code for any purpose and
+    without fee. You may distribute this ORIGINAL package.
+
+After the following prologue, the code is essentially Ooura's original, which I
+believe the above notice permits me to redistribute; the only change is to
+replace 'double' with a macro, 'FFTFLT', so that it can optionally
+be run in single precision for greater speed.  See Ooura's website
+for another, more permissive-sounding copyright notice.  -MSP
+*/
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_fft_fftsg.c
+
+---
+
+/* Copyright (c) 1997-2001 Miller Puckette and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_math.c
+libpd-wasm-0.1.6/pure-data/src/g_canvas.c
+libpd-wasm-0.1.6/pure-data/src/g_graph.c
+libpd-wasm-0.1.6/pure-data/src/x_midi.c
+
+---
+
+/* Copyright (c) 1997-2024 Miller Puckette.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_osc.h
+
+---
+
+/* Copyright (c) 1997-1999 Miller Puckette.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_resample.c
+
+---
+
+/* Copyright (c) 1997-1999 Miller Puckette. Updated 2019 Dan Wilcox.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_soundfile.c
+libpd-wasm-0.1.6/pure-data/src/d_soundfile_next.c
+libpd-wasm-0.1.6/pure-data/src/d_soundfile_wave.c
+
+---
+
+/* Copyright (c) 2019 Dan Wilcox.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_soundfile.h
+libpd-wasm-0.1.6/pure-data/src/s_net.c
+libpd-wasm-0.1.6/pure-data/src/s_net.h
+
+---
+
+/* Copyright (c) 1997-1999 Miller Puckette. Updated 2020 Dan Wilcox.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_soundfile_aiff.c
+
+---
+
+/* AIFF (Audio Interchange File Format) and AIFF-C (AIFF Compressed)
+
+  * RIFF variant with sections split into data "chunks"
+  * chunk sizes do not include the chunk id or size (- 8)
+  * the file header's size is the total size of all subsequent chunks (- 8)
+  * chunk data is big endian
+  * sound data is big endian, unless AIFF-C "sowt" compression type
+  * the sound data chunk can be omitted if common chunk sample frames is 0
+  * chunks start on even byte offsets
+  * chunk string values are pascal strings:
+    - first byte is string length, limited to 255 chars
+    - total length must be even, pad with a '\0' byte, max 256
+    - padding is not added to string length byte value
+  * AIFF-C compression 4 char types & name (pascal) strings:
+    - NONE "not compressed" big endian
+    - sowt "not compressed" little endian
+    - fl32 "32-bit floating point" big endian
+    - FL32 "Float 32" big endian
+    - fl63 "64-bit floating point" big endian
+    - the rest are not relevant to Pd...
+  * limited to ~2 GB files as sizes are signed 32 bit ints
+
+  this implementation:
+
+  * supports AIFF and AIFF-C
+  * implicitly writes AIFF-C header for 32 and 64 bit float (see below)
+  * implements chunks: common, data, version (AIFF-C)
+  * ignores chunks: marker, instrument, comment, name, author, copyright,
+                    annotation, audio recording, MIDI data, application, ID3
+  * assumes common chunk is always before sound data chunk
+  * ignores any chunks after finding the sound data chunk
+  * assumes there is always a sound data chunk
+  * does not block align sound data
+  * sample format: 16 and 24 bit lpcm, 32 and 64 bit float, no 32 bit lpcm
+
+  Pd versions < 0.55 did not read or write 64 bit float.
+
+  Pd versions < 0.51 did *not* read or write AIFF files with a 32 bit float
+  sample format.
+
+*/
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_soundfile_aiff.c
+
+---
+
+/* Copyright (c) 2020 Dan Wilcox.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/d_soundfile_caf.c
+
+---
+
+/* Copyright (c) 1997-1999 Miller Puckette.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution. */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/g_all_guis.c
+libpd-wasm-0.1.6/pure-data/src/g_bang.c
+libpd-wasm-0.1.6/pure-data/src/g_mycanvas.c
+libpd-wasm-0.1.6/pure-data/src/g_numbox.c
+libpd-wasm-0.1.6/pure-data/src/g_radio.c
+libpd-wasm-0.1.6/pure-data/src/g_slider.c
+libpd-wasm-0.1.6/pure-data/src/g_toggle.c
+libpd-wasm-0.1.6/pure-data/src/g_vumeter.c
+
+---
+
+/* Copyright (c) 1997-1999 Miller Puckette.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution. */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/g_all_guis.h
+
+---
+
+/* Copyright (c) 1997-2001 Miller Puckette and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/g_editor.c
+
+---
+
+/* Copyright (c) 2018 Miller Puckette, IOhannes m zmölnig and others.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/g_editor_extras.c
+
+---
+
+/* Copyright (c) 1997-2000 Miller Puckette.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/g_guiconnect.c
+libpd-wasm-0.1.6/pure-data/src/s_watchdog.c
+libpd-wasm-0.1.6/pure-data/src/x_gui.c
+
+---
+
+/* Copyright (c) 1997-2002 Miller Puckette and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/g_readwrite.c
+
+---
+
+/* Copyright (c) 2003, Miller Puckette and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_audio.c
+libpd-wasm-0.1.6/pure-data/src/s_audio_jack.c
+
+---
+
+/* Copyright (c) 1997-2003 Guenter Geiger, Miller Puckette, Larry Troxler,
+* Winfried Ritsch, Karl MacMillan, and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_audio_alsa.c
+libpd-wasm-0.1.6/pure-data/src/s_audio_alsamm.c
+libpd-wasm-0.1.6/pure-data/src/s_audio_oss.c
+
+---
+
+/* Copyright (c) 1997- Guenter Geiger, Miller Puckette, Larry Troxler,
+* Winfried Ritsch, Karl MacMillan, and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_audio_alsa.h
+
+---
+
+/*
+ * Copyright (c) 2010 Peter Brinkmann (peter.brinkmann@gmail.com)
+ *
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_audio_dummy.c
+
+---
+
+/* Copyright (c) 2006 Guenter Geiger,
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_audio_esd.c
+
+---
+
+/* Copyright (c) 2001 Miller Puckette and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_audio_pa.c
+
+---
+
+/*
+ * ringbuffer.c
+ * Ring Buffer utility..
+ *
+ * Author: Phil Burk, http://www.softsynth.com
+ *
+ * This program uses the PortAudio Portable Audio Library.
+ * For more information see: http://www.audiomulch.com/portaudio/
+ * Copyright (c) 1999-2000 Ross Bencina and Phil Burk
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files
+ * (the "Software"), to deal in the Software without restriction,
+ * including without limitation the rights to use, copy, modify, merge,
+ * publish, distribute, sublicense, and/or sell copies of the Software,
+ * and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * Any person wishing to distribute modifications to the Software is
+ * requested to send the modifications to the original developer so that
+ * they can be incorporated into the canonical version.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ * ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+ * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * modified 2002/07/13 by olaf.matthes@gmx.de to allow any number if channels
+ *
+ * extensively hacked by msp@ucsd.edu for various reasons
+ *
+ */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_audio_paring.c
+
+---
+
+/*
+ * ringbuffer.h
+ * Ring Buffer utility..
+ *
+ * Author: Phil Burk, http://www.softsynth.com
+ *
+ * This program is distributed with the PortAudio Portable Audio Library.
+ * For more information see: http://www.audiomulch.com/portaudio/
+ * Copyright (c) 1999-2000 Ross Bencina and Phil Burk
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files
+ * (the "Software"), to deal in the Software without restriction,
+ * including without limitation the rights to use, copy, modify, merge,
+ * publish, distribute, sublicense, and/or sell copies of the Software,
+ * and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * Any person wishing to distribute modifications to the Software is
+ * requested to send the modifications to the original developer so that
+ * they can be incorporated into the canonical version.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ * IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR
+ * ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+ * CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_audio_paring.h
+
+---
+
+/* Copyright (c) 1997-2004 Miller Puckette.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_file.c
+
+---
+
+/* Copyright (c) 2022 IOhannes m zmölnig.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_inter_gui.c
+
+---
+
+/*
+ * the following string2args function is based on from sash-3.8 (the StandAlone SHell)
+ * Copyright (c) 2014 by David I. Bell
+ * Permission is granted to use, distribute, or modify this source,
+ * provided that this copyright notice remains intact.
+ */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_main.c
+
+---
+
+/* Copyright (c) 1997-1999 Guenter Geiger, Miller Puckette, Larry Troxler,
+* Winfried Ritsch, Karl MacMillan, and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_midi_alsa.c
+libpd-wasm-0.1.6/pure-data/src/s_midi_oss.c
+
+---
+
+/* Copyright (c) 1997-2003 Guenter Geiger, Miller Puckette, Larry Troxler,
+* Winfried Ritsch, Karl MacMillan, and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+
+   this file is a dummy for systems without any MIDI support
+
+*/
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_midi_dummy.c
+
+---
+
+/* Copyright (c) 1997-2003 Guenter Geiger, Miller Puckette, Larry Troxler,
+* Winfried Ritsch, Karl MacMillan, and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+
+   this file calls portmidi to do MIDI I/O for MSW and Mac OSX.
+
+*/
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_midi_pm.c
+
+---
+
+/* Copyright (c) 1999 Guenter Geiger and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/s_path.c
+
+---
+
+/* Copyright (c) 2000 Miller Puckette.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in the Pd distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/u_pdreceive.c
+libpd-wasm-0.1.6/pure-data/src/u_pdsend.c
+
+---
+
+/* Copyright (c) 1997-2013 Miller Puckette and others.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/x_array.c
+libpd-wasm-0.1.6/pure-data/src/x_scalar.c
+
+---
+
+/* Copyright (c) 2021 IOhannes m zmölnig.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/x_file.c
+
+---
+
+/* Copyright (c) IRCAM.
+ * For information on usage and redistribution, and for a DISCLAIMER OF ALL
+ * WARRANTIES, see the file, "LICENSE.txt," in this distribution.
+ */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/x_vexp.c
+
+---
+
+/* Copyright (c) IRCAM.
+* For information on usage and redistribution, and for a DISCLAIMER OF ALL
+* WARRANTIES, see the file, "LICENSE.txt," in this distribution.  */
+
+Files:
+libpd-wasm-0.1.6/pure-data/src/x_vexp.h
+libpd-wasm-0.1.6/pure-data/src/x_vexp_fun.c
+libpd-wasm-0.1.6/pure-data/src/x_vexp_if.c

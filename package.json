@@ -1,0 +1,25 @@
+{
+  "name": "lich-patcher",
+  "private": true,
+  "version": "0.3.0",
+  "type": "module",
+  "description": "Static WebMIDI patch manager and Pd editor for the OWL Lich",
+  "scripts": {
+    "worklet": "node scripts/worklet.mjs",
+    "docs": "node scripts/pd-docs.mjs",
+    "predev": "npm run worklet && npm run docs && npm run legal",
+    "dev": "vite",
+    "prebuild": "npm run worklet && npm run docs && npm run legal",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.mjs",
+    "legal": "node scripts/legal.mjs"
+  },
+  "devDependencies": {
+    "vite": "5.4.11"
+  },
+  "dependencies": {
+    "libpd-wasm": "0.1.6"
+  },
+  "license": "GPL-3.0-or-later"
+}

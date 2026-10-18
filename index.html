@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lich Patcher</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="app">
+
+  <!-- ═════════ virtual module ═════════ -->
+  <aside class="module-wrap" id="moduleWrap">
+    <div class="module" id="module">
+      <span class="screw" style="left:12px;top:10px"></span><span class="screw" style="right:12px;top:10px"></span>
+      <span class="screw" style="left:12px;bottom:10px"></span><span class="screw" style="right:12px;bottom:10px"></span>
+      <div class="mtitle">LICH</div>
+
+      <div class="row" style="gap:12px;align-items:flex-start">
+        <div class="usb-a" title="USB host"><i></i></div>
+        <div class="usb-b" title="USB device"><i></i><span class="led" id="usbLed"></span></div>
+        <div style="flex:1">
+          <div class="plate">
+            <div class="seg" title="Patch display"><svg id="seg" viewBox="0 0 42 52"></svg></div>
+            <svg class="waves" viewBox="0 0 20 40" fill="none" stroke="#333" stroke-width="1.6"><path d="M4 8q6 12 0 24M9 4q9 16 0 32M14 1q11 19 0 38"/></svg>
+            <div class="enc" id="enc" title="Scroll to pick a slot, click to load it"></div>
+          </div>
+          <div class="plate-lbl">PATCH</div>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:12px;padding:0 4px">
+        <div class="kcell"><div class="knob big" data-pid="0" style="width:150px;height:150px"></div><div class="lbl">A</div></div>
+        <div class="kcell"><div class="knob mid" data-pid="1" style="width:96px;height:96px"></div><div class="lbl">B</div></div>
+      </div>
+
+      <div class="row" style="margin-top:10px;padding:0 2px">
+        <button class="pbtn" data-bid="4" title="Button 1 (gate 1)"></button>
+        <button class="pbtn" data-bid="5" title="Button 2 (gate 2)"></button>
+        <div class="kcell"><div class="knob sm" data-pid="2" style="width:76px;height:76px"></div><div class="lbl">C</div></div>
+        <div class="kcell"><div class="knob sm" data-pid="3" style="width:76px;height:76px"></div><div class="lbl">D</div></div>
+      </div>
+
+      <div class="row" style="margin-top:14px">
+        <div class="jcell"><div class="knob tr" style="width:58px;height:58px"></div><div class="trace"></div><div class="jack"></div><div class="lbl">A CV</div></div>
+        <div class="jcell"><div class="knob tr" style="width:58px;height:58px"></div><div class="trace"></div><div class="jack"></div><div class="lbl">B CV</div></div>
+        <div class="jcell"><div class="knob tr" style="width:58px;height:58px"></div><div class="trace"></div><div class="jack"></div><div class="lbl">C CV</div></div>
+        <div class="jcell"><div class="knob tr" style="width:58px;height:58px"></div><div class="trace"></div><div class="jack"></div><div class="lbl">D CV</div></div>
+      </div>
+
+      <div class="jackgrid">
+        <div class="jcell"><div class="jack"></div><div class="lbl">IN L</div></div>
+        <div class="jcell"><div class="jack"></div><div class="lbl">GATE 1</div></div>
+        <div class="jcell" style="grid-row:span 2;justify-content:center"><div class="gled"></div><div class="redbox jcell"><div class="jack red"></div><div class="lbl">GATE OUT</div></div></div>
+        <div class="redbox jcell"><div class="jack red"></div><div class="lbl">CV OUT 1</div></div>
+        <div class="redbox jcell"><div class="jack red"></div><div class="lbl">OUT L</div></div>
+        <div class="jcell"><div class="jack"></div><div class="lbl">IN R</div></div>
+        <div class="jcell"><div class="jack"></div><div class="lbl">GATE 2</div></div>
+        <div class="redbox jcell"><div class="jack red"></div><div class="lbl">CV OUT 2</div></div>
+        <div class="redbox jcell"><div class="jack red"></div><div class="lbl">OUT R</div></div>
+      </div>
+      <div class="mfoot">OPEN WARE · OWL</div>
+    </div>
+  </aside>
+
+  <!-- ═════════ main ═════════ -->
+  <main>
+    <div class="top">
+      <div class="brand">Lich Patcher<small>Patch manager for the OWL Lich, over USB MIDI</small></div>
+      <div class="spacer"></div>
+      <div class="pill"><span class="dot" id="connDot"></span><b id="connText">Not connected</b></div>
+      <select id="portSel" class="btn sm hidden" title="MIDI port"></select>
+      <button class="btn primary" id="connectBtn">Connect</button>
+    </div>
+
+    <div id="noMidi" class="notice err hidden"></div>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab" role="tab" data-tab="patches" aria-selected="true">Patches</button>
+      <button class="tab" role="tab" data-tab="editor">Pd editor</button>
+      <button class="tab" role="tab" data-tab="library">Library</button>
+      <button class="tab" role="tab" data-tab="control">Control</button>
+      <button class="tab" role="tab" data-tab="device">Device</button>
+      <button class="tab" role="tab" data-tab="monitor">Monitor<span class="badge hidden" id="errBadge">!</span></button>
+    </nav>
+
+    <!-- PATCHES -->
+    <section class="view on" id="v-patches">
+      <div class="card">
+        <h2>Upload <span class="sub">.syx or .bin from OwlProgram, or a resource file</span></h2>
+        <div class="drop" id="drop">
+          <div class="big">Drop a patch here</div>
+          <div class="muted">or click to choose a file</div>
+          <input type="file" id="fileIn" hidden>
+        </div>
+        <div class="staged" id="staged">
+          <div class="row" style="align-items:flex-start;gap:12px">
+            <dl class="kv" id="stagedInfo"></dl>
+            <button class="btn ghost" id="unstage" title="Clear">✕</button>
+          </div>
+          <div class="actions" id="stagedActions">
+            <button class="btn primary" id="runBtn" title="Load into RAM and run, without storing">Run now</button>
+            <span class="field">Slot <select id="slotSel"></select></span>
+            <button class="btn" id="storeBtn">Store in slot</button>
+            <span class="field" id="resNameField">Name <input class="wide" id="resName" maxlength="15"></span>
+            <button class="btn" id="saveResBtn">Save as resource</button>
+            <button class="btn ghost" id="stageToLib">+ Library</button>
+          </div>
+          <div class="progress" id="upProg"><i></i></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Patches on device <span class="spacer"></span>
+          <button class="btn sm" id="backupBtn" title="Download every stored patch into the library">Back up all</button>
+          <button class="btn sm" id="refreshBtn">Refresh</button></h2>
+        <div class="well"><table><thead><tr><th>Slot</th><th>Name</th><th>Size</th><th class="crc">CRC</th><th></th></tr></thead><tbody id="patchRows"></tbody></table></div>
+        <div class="progress" id="dlProg"><i></i></div>
+      </div>
+
+      <div class="card">
+        <h2>Resources <span class="sub">wavetables, samples and data files</span></h2>
+        <div class="well"><table><thead><tr><th>#</th><th>Name</th><th>Size</th><th class="crc">CRC</th><th></th></tr></thead><tbody id="resRows"></tbody></table></div>
+      </div>
+    </section>
+
+    <!-- PD EDITOR -->
+    <section class="view" id="v-editor">
+      <div class="card ed-card">
+        <div class="ed-bar">
+          <span class="field ed-namef" title="Patch name on the Lich (letters, digits, space _ - .)"><input id="edName" maxlength="23" spellcheck="false" aria-label="Patch name"><i class="ed-dirty" id="edDirty" title="Not saved to a .pd file"></i></span>
+          <select class="btn sm" id="edTpl" aria-label="New from template"></select>
+          <button class="btn sm" id="edOpen" title="Open a .pd file (or drop one anywhere)">Open</button><input type="file" id="edFile" accept=".pd" hidden>
+          <button class="btn sm" id="edSave" title="Download the .pd file (⌘S)">Save .pd</button>
+          <span class="spacer"></span>
+          <button class="btn sm ghost ed-issues" id="edIssues" title="Show the next problem"></button>
+          <div class="seg-tabs" role="tablist"><button class="tab" id="edModeEdit" title="Edit mode (⌘E)">Edit</button><button class="tab" id="edModePlay" title="Play mode: click messages, drag numbers (⌘E)">Play</button></div>
+          <button class="btn sm ghost" id="edUndo" title="Undo (⌘Z)">↶</button>
+          <button class="btn sm ghost" id="edRedo" title="Redo (⇧⌘Z)">↷</button>
+          <button class="btn sm ghost" id="edZoomOut" title="Zoom out (⌘−)">−</button><span class="mono faint" id="edZoomTxt">100%</span><button class="btn sm ghost" id="edZoomIn" title="Zoom in (⌘+)">+</button>
+        </div>
+        <div class="notice sm ed-help hidden" id="edHelpNote"></div>
+        <div class="ed-crumbs hidden" id="edCrumbs"></div>
+        <div class="ed-main">
+          <div class="ed-canvas" id="edCanvas" tabindex="0">
+            <svg id="edSvg" xmlns="http://www.w3.org/2000/svg"><g id="edWorld"><g id="edCords"></g><g id="edNodes"></g><path id="edDrag" class="wire"/><rect id="edMarq" class="marq" width="0" height="0"/></g></svg>
+            <textarea id="edInput" class="ed-input hidden" spellcheck="false" rows="1"></textarea>
+          </div>
+          <aside class="ed-side">
+            <input class="ed-search" id="edSearch" placeholder="Find object…" spellcheck="false" aria-label="Find object">
+            <div class="ed-palette" id="edPalette"></div>
+            <div class="ed-inspector" id="edInspector"></div>
+          </aside>
+        </div>
+      </div>
+
+      <div class="grid2 ed-lower">
+        <div class="card">
+          <h2>Preview <span class="sub"><span class="dot" id="pvDot"></span> <span id="pvState">off</span></span><span class="spacer"></span>
+            <label class="h2-plain" title="Reload the preview on every edit"><input type="checkbox" id="pvAuto"> live</label>
+            <button class="btn sm ghost" id="pvReload" title="Reload the patch">⟳</button>
+            <button class="btn sm primary" id="pvPlay">▶ Play</button></h2>
+          <div class="pv-io">
+            <span class="field">In <select id="pvInput" aria-label="Preview input"><option value="none">silence</option><option value="drums">drum loop · 120 BPM</option><option value="tone">test chord</option><option value="mic">microphone</option><option value="file">audio file…</option></select></span><input type="file" id="pvFile" accept="audio/*" hidden>
+            <span class="faint pv-fname" id="pvFileName"></span>
+            <span class="spacer"></span>
+            <span class="field">Vol <input type="range" id="pvVol" min="0" max="1" step="0.01" value="0.7" style="width:90px"></span>
+          </div>
+          <div class="pv-scope"><canvas id="pvScope"></canvas><div class="meter"><i id="pvLvl"></i></div></div>
+          <div class="pv-knobs" id="pvKnobs"></div>
+          <div class="pv-outs" id="pvOuts"></div>
+        </div>
+        <div class="card">
+          <h2>Build for Lich <span class="sub"><span class="dot" id="bdDot"></span> <span id="bdState">checking…</span></span><span class="spacer"></span>
+            <button class="btn sm ghost" id="bdGear" title="Build server settings">⚙</button></h2>
+          <div class="bd-settings hidden" id="bdSettings">
+            <label class="field">Server <input id="bdUrl" class="wide" spellcheck="false"></label>
+            <label class="field">Key <input id="bdKey" type="password" class="wide" placeholder="only if the server needs one" autocomplete="off"></label>
+            <button class="btn sm" id="bdSave">Save</button>
+          </div>
+          <div class="actions" style="margin-top:0">
+            <button class="btn primary" id="bdBuild" disabled>Build</button>
+            <span class="muted" id="bdWhy"></span>
+          </div>
+          <div class="progress" id="bdProg"><i></i></div>
+          <div class="bd-result" id="bdResult"></div>
+          <div class="actions">
+            <button class="btn sm" id="bdRun" disabled>Run on Lich</button>
+            <button class="btn sm" id="bdStage" disabled title="Open in the Patches tab to store it in a slot">Store…</button>
+            <button class="btn sm ghost" id="bdSyx" disabled>↓ .syx</button>
+            <button class="btn sm ghost" id="bdLib" disabled>+ Library</button>
+          </div>
+          <p class="note">Builds run on your lich-patcher-server: Heavy turns the patch into C, ARM GCC compiles it in a sandbox. Preview here first; building costs server time.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Console <span class="spacer"></span><button class="btn sm ghost" id="edClear">Clear</button></h2>
+        <div class="well log ed-console" id="edConsole"></div>
+      </div>
+    </section>
+
+    <!-- LIBRARY -->
+    <section class="view" id="v-library">
+      <div class="card">
+        <h2>Library <span class="sub">kept in this browser, works offline</span><span class="spacer"></span>
+          <button class="btn sm" id="libAdd">Add files</button><input type="file" id="libFile" multiple hidden></h2>
+        <div class="well"><table><thead><tr><th>Name</th><th>Type</th><th>Size</th><th class="crc">Added</th><th></th></tr></thead><tbody id="libRows"></tbody></table></div>
+        <p class="note">Patches you download from the Lich, back up, or drop here are kept in this browser's storage. Export anything you want to keep for good: clearing site data wipes it.</p>
+      </div>
+    </section>
+
+    <!-- CONTROL -->
+    <section class="view" id="v-control">
+      <div class="card">
+        <h2>Parameters <span class="sub" id="ctlPatch"></span><span class="spacer"></span>
+          <button class="btn sm" id="namesBtn" title="Restart the current patch so it announces its parameter names">Fetch names</button></h2>
+        <p class="note" style="margin:0 0 16px">A–D follow the knobs and CV on the module; the Lich firmware rewrites them every audio block, so they can't be set over MIDI. E–H and the extra parameters a patch registers can.</p>
+        <div class="params" id="params"></div>
+      </div>
+      <div class="grid2">
+        <div class="card">
+          <h2>Gates</h2>
+          <div class="gates">
+            <div class="gate"><button class="pbtn" data-bid="4"></button>BUTTON 1</div>
+            <div class="gate"><button class="pbtn" data-bid="5"></button>BUTTON 2</div>
+            <div class="gate"><button class="pbtn" data-bid="6"></button>BUTTON 3</div>
+            <div class="gate"><button class="pbtn" data-bid="7"></button>BUTTON 4</div>
+          </div>
+          <p class="note">Hold to press. Patches read these as buttons 1–4; 1 and 2 are the panel buttons.</p>
+        </div>
+        <div class="card">
+          <h2>Patch messages</h2>
+          <div class="well mono" id="patchMsg"><span class="faint">debugMessage() output from the patch shows here.</span></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Keyboard <span class="sub">MIDI notes to the patch, channel <select id="noteCh" class="btn sm chsel"></select></span><span class="spacer"></span>
+          <button class="btn sm" id="octDn">Oct −</button><span class="mono muted" id="octLbl">C3</span><button class="btn sm" id="octUp">Oct +</button></h2>
+        <div class="keys" id="keys"></div>
+        <p class="note">Computer keys A W S E D F T G Y H U J K play too.</p>
+      </div>
+    </section>
+
+    <!-- DEVICE -->
+    <section class="view" id="v-device">
+      <div class="grid2">
+        <div class="card">
+          <h2>Device <span class="spacer"></span><button class="btn sm" id="infoBtn">Refresh</button></h2>
+          <dl class="kv" id="devInfo"></dl>
+        </div>
+        <div class="card">
+          <h2>Live <span class="spacer"></span>
+            <span class="toggle-row h2-plain">poll<button class="switch" id="liveSw" role="switch" aria-checked="true"></button></span></h2>
+          <div class="stat"><div class="row"><span>CPU</span><span id="cpuTxt">–</span></div><div class="meter" id="cpuM"><i></i></div></div>
+          <div class="stat"><div class="row"><span>Patch memory</span><span id="memTxt">–</span></div></div>
+          <div class="stat"><div class="row"><span>Storage</span><span id="stoTxt">–</span></div><div class="meter" id="stoM"><i></i></div></div>
+          <div id="errBox" class="notice err hidden" style="margin:6px 0 0"></div>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Settings <span class="sub">as reported by the firmware (read only)</span></h2>
+        <div class="well"><table><thead><tr><th>Key</th><th>Setting</th><th>Value</th></tr></thead><tbody id="cfgRows"></tbody></table></div>
+      </div>
+      <div class="card">
+        <h2>Tools</h2>
+        <div class="actions" style="margin-top:0">
+          <span class="field">Upload pacing <input id="pace" type="number" min="0" max="50" value="4" style="width:46px">ms / packet</span>
+          <button class="btn" id="resetBtn">Restart device</button>
+        </div>
+        <p class="note">Firmware and bootloader flashing are left out on purpose. Use the official firmware updater for those.</p>
+      </div>
+    </section>
+
+    <!-- MONITOR -->
+    <section class="view" id="v-monitor">
+      <div class="card">
+        <h2>MIDI monitor <span class="spacer"></span>
+          <label class="h2-plain"><input type="checkbox" id="hidePoll" checked> hide polling</label>
+          <label class="h2-plain"><input type="checkbox" id="showHex"> hex</label>
+          <button class="btn sm" id="clearLog">Clear</button></h2>
+        <div class="well log" id="log"></div>
+      </div>
+    </section>
+    <footer class="site-legal"><a href="%BASE_URL%legal.html">Source, credits &amp; licences</a> · GPLv3+ · No warranty</footer>
+  </main>
+</div>
+
+<div class="toasts" id="toasts"></div>
+<dialog id="dlg"><h3 id="dlgT"></h3><p id="dlgB" class="muted"></p><div class="actions" style="justify-content:flex-end"><button class="btn" id="dlgNo">Cancel</button><button class="btn primary" id="dlgYes">OK</button></div></dialog>
+
+<script type="module" src="/src/js/main.js"></script>
+</body>
+</html>

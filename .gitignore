@@ -1,0 +1,32 @@
+# dependencies and build output (Netlify runs `npm ci && npm run build`)
+node_modules/
+dist/
+.vite/
+.netlify/
+
+# generated before every dev/build: the libpd worklet (scripts/worklet.mjs) and the
+# object docs + Pd help patches fetched from pinned upstream sources (scripts/pd-docs.mjs)
+public/libpd-worklet.js
+public/help/
+src/js/pd/docs.json
+
+# scratch patches dropped into public/ for testing (anything in public/ gets deployed)
+public/__tmp*
+
+# local config and OS/editor clutter
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# Generated deployment notices and application source (root files are canonical).
+public/LICENSE.txt
+public/CREDITS.md
+public/THIRD_PARTY_NOTICES.txt
+public/legal.html
+public/source/README.md
+public/source/release.json
+public/source/lich-patcher-source.tar.gz

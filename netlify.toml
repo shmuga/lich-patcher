@@ -1,0 +1,20 @@
+[build]
+  command = "npm ci && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+  VITE_BUILD_SERVER = "https://lich-patcher.markorel.ninja"   # optional override of the built-in default
+
+# tabs live at /patches, /editor, … – serve the app for them (real files still win)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "midi=(self), microphone=(self)"

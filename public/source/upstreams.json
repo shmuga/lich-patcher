@@ -1,0 +1,42 @@
+{
+  "libpdWasmVersion": "0.1.6",
+  "hvccVersion": "0.17.2",
+  "workletSha256": "251bdc9a00c4517e32165f41c7fd749b4ec56d5f4771b5aaa12fe38d4517b5e4",
+  "archives": {
+    "libpd-wasm-0.1.6-source.tar.gz": {
+      "sha256": "5a708f776ecb34562aa60df0acb42db74ebe06834c9ef0fa310a827925e37dc1",
+      "purpose": "Preview engine source and build scripts"
+    },
+    "hvcc-0.17.2-docs.tar.gz": {
+      "sha256": "e709340b3a74aaf297331ba0906929e2a5def4d9370a13e7be941ae9443768fd",
+      "purpose": "Original hvcc reference documentation"
+    }
+  },
+  "upstreams": {
+    "libpd-wasm": {
+      "repository": "https://github.com/hyrfilm/libpd-wasm",
+      "commit": "5336aeff897fde33e48af23432924a450f61fda6",
+      "archive": "https://codeload.github.com/hyrfilm/libpd-wasm/tar.gz/5336aeff897fde33e48af23432924a450f61fda6"
+    },
+    "pure-data": {
+      "repository": "https://github.com/pure-data/pure-data",
+      "commit": "b1ff370c87b579f80130a9cafbf27cd890e90882",
+      "archive": "https://codeload.github.com/pure-data/pure-data/tar.gz/b1ff370c87b579f80130a9cafbf27cd890e90882"
+    },
+    "pd-cyclone": {
+      "repository": "https://github.com/porres/pd-cyclone",
+      "commit": "d2cff143021c8b1a1f3cd5c71cdb32c5576ba85a",
+      "archive": "https://codeload.github.com/porres/pd-cyclone/tar.gz/d2cff143021c8b1a1f3cd5c71cdb32c5576ba85a"
+    },
+    "pd-else": {
+      "repository": "https://github.com/porres/pd-else",
+      "commit": "bd3fbb5a688276dcf650de8bb6a18ec0fd6017b0",
+      "archive": "https://codeload.github.com/porres/pd-else/tar.gz/bd3fbb5a688276dcf650de8bb6a18ec0fd6017b0"
+    },
+    "hvcc": {
+      "repository": "https://github.com/Wasted-Audio/hvcc",
+      "commit": "de4b13fa0e9daec14fe0414ac1bce28370298b4a",
+      "archive": "https://codeload.github.com/Wasted-Audio/hvcc/tar.gz/de4b13fa0e9daec14fe0414ac1bce28370298b4a"
+    }
+  }
+}

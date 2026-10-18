@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%}
+body{background:radial-gradient(1200px 700px at 30% -10%,#202124 0%,var(--bg) 60%) fixed,var(--bg);
+  color:var(--text);font:15px/1.45 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:#ff8a80}
+.hidden{display:none!important}
+.muted{color:var(--muted)}.faint{color:var(--faint)}
+.mono{font-family:var(--mono);font-size:12.5px}
+.spacer{flex:1}
+.row{display:flex;align-items:center;justify-content:space-between}
+
+/* Layout: the module column sizes itself (it is zoomed to fit the viewport height, see panel.js) */
+.app{display:grid;grid-template-columns:auto minmax(0,1fr);gap:calc(var(--gutter) + 6px);
+  max-width:1440px;margin:0 auto;padding:var(--gutter)}
+main{min-width:0;container-type:inline-size}
+.module-wrap{position:sticky;top:var(--gutter);align-self:start}
+@media (max-width:820px){
+  .app{grid-template-columns:minmax(0,1fr);padding:16px}
+  .module-wrap{position:static;justify-self:center}
+}
+
+.site-legal{padding:20px 0 4px;color:var(--muted);font-size:12px;text-align:right}
