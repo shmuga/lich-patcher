@@ -2,7 +2,12 @@
 
 A browser-based patch manager and Pure Data editor for the **Befaco / Rebel Technology Lich**.
 Manage patches over USB MIDI, edit `.pd` files and preview audio in your browser.
-An optional [compiler server](../lich-patcher-server) builds patches for the hardware.
+An optional closed-source compiler service builds patches for the hardware.
+The compiler server is maintained separately and its source is not included in this repository.
+
+[Open Lich Patcher](https://lich.markorel.ninja/)
+
+[![Lich Patcher screenshot](docs/images/lich-patcher.png)](https://lich.markorel.ninja/)
 
 ## Use
 
@@ -40,8 +45,8 @@ object documentation from pinned Pure Data and hvcc sources. Production builds
 also package licences and corresponding source downloads. No audio compiler is
 needed to build the frontend.
 
-The default compiler server is `https://lich-patcher.markorel.ninja`, deployed
-separately. To use another server, change the address in the site's settings
+The default compiler service is `https://lich-patcher.markorel.ninja`. To use
+another compatible server, change the address in the site's settings
 or set `VITE_BUILD_SERVER` before building:
 
 ```sh
@@ -58,7 +63,7 @@ Web MIDI and AudioWorklet require HTTPS or localhost.
 Keep `legal.html`, the licence notices and `source/` downloads with the deployment;
 the build generates these for the exact application version. The source archives
 are separate downloads and do not load when using the editor. If enabling the
-compiler, deploy its API separately over HTTPS. Set `VITE_BUILD_SERVER` only
+compiler service of your own, host its compatible API separately over HTTPS. Set `VITE_BUILD_SERVER` only
 when overriding the default server address.
 
 ## Licence and credits
